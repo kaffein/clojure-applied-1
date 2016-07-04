@@ -1,9 +1,0 @@
-(ns ch1.apollo)
-
-(defn make-mission
-  [name system launched manned? opts]
-  (let [{:keys [cm-name
-                lm-name
-                orbits
-                evas]} opts]
-    ,,, ))
