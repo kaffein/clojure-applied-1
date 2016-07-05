@@ -4,7 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [prismatic/schema "0.4.3"]]
+                 [prismatic/schema "0.4.3"]
+                 [medley "0.6.0"]]
   :main ^:skip-aot cljapplied.core
   :target-path "target/%s"
   :source-paths ["src" "src/ch1"]
