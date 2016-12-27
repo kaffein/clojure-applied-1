@@ -34,7 +34,7 @@
   ([m1 m2 & monies]
    (reduce +$ m1 (conj monies m2))))
 
-(defn *$ [m n] (->Money (* n (:amounr m)) (:currency m)))
+(defn *$ [m n] (->Money (* n (:amount m)) (:currency m)))
 
 (defn make-money
   ([] (make-money 0))
