@@ -38,7 +38,7 @@
 
 (defn make-money
   ([] (make-money 0))
-  ([amount] (make-money amount :usd))
+  ([amount] (make-money amount (:usd currencies)))
   ([amount currency] (->Money amount currency)))
 
 
